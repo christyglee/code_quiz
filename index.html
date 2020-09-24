@@ -13,102 +13,119 @@
 
     <title>Code Quiz Challenge</title>
   </head>
-  <body>
+
+  <body onload="challengeQuestions()">
 
     <main>
         <!-- Card source code from Bootstrap -->
     <div class="card text-center">
-        <div class="card-header">
+        <div class="card-header headerfooter">
         </div>
         <div class="card-body">
-          <h2 class="card-title">Welcome to Christy's Code Quiz Challenge!</h2>
+          <h2 class="card-title rules">Welcome to Christy's Code Quiz Challenge!</h2>
           <br>
-          <h3 class="card-text rules">Rules of the Challenge:</h3>
+          <h3 class="card-text">Rules of the Challenge:</h3>
             <br>
-                <p>Answer all multiple choice questions within 2 minutes.</p>
+                <p>Answer all multiple choice questions within 3 minutes.</p>
                 <p>10 seconds will be deducted for every incorrect answer.</p>
             <br>
                 <p>MAY THE CODE BE WITH YOU!</p>
 
-          <button class="btn btn-primary">Start!</a>
+          <button class="btn btn-primary start">Start!</a>
         </div>
-        <div class="card-footer text-muted">
+        <div class="card-footer text-muted headerfooter">
         </div>
       </div>
+      
+      <!-- New div for questions -->
+      <div class="challenge">
+        <div class="timer">
         <!-- Quiz Question 1 -->
-        <div id="question-1"></div>
+        <div id="question-1">
             <p>A very useful tool used during development and debugging for printing content to the debugger is:</p>
             <ol>
-                <li>Console.log</li>
-                <li>JavaScript</li> 
-                <li>Terminal/bash </li>
-                <li>For loops</li> 
+                <li class="mc">Console.log</li>
+                <li class="mc">JavaScript</li> 
+                <li class="mc">Terminal/bash </li>
+                <li class="mc">For loops</li> 
                 <!-- Correct ansewr: Console.log -->
             </ol>
+        </div>
+
         <!-- Quiz Question 2 -->
-        <div id="question-2"></div>
+        <div id="question-2">
         <p>String values must be enclosed within _____ when being assigned to variables.</p>
         <ol>
-            <li>Commas </li>
-            <li>Curly brackets</li> 
-            <li>Quotes</li>
-            <li>Parentheses</li> 
+            <li class="mc">Commas</li>
+            <li class="mc">Curly brackets</li> 
+            <li class="mc">Quotes</li>
+            <li class="mc">Parentheses</li> 
             <!-- Correct ansewr: Curly brackets -->
         </ol>    
+        </div>
+
         <!-- Quiz Question 3 -->
-        <div id="question-3"></div>
+        <div id="question-3">
         <p>What does HTML stand for?</p>
         <ol>
-            <li>How To Move Language</li>
-            <li>Hyper Text Markup Language</li> 
-            <li>High Texting Mask Language </li>
-            <li>Hyper Text Media Lingo</li> 
+            <li class="mc">How To Move Language</li>
+            <li class="mc">Hyper Text Markup Language</li> 
+            <li class="mc">High Texting Mask Language </li>
+            <li class="mc">Hyper Text Media Lingo</li> 
             <!-- Correct ansewr: Hyper Text Markup Language -->
         </ol>  
+        </div>
 
         <!-- Quiz Question 4 -->
-        <div id="question-4"></div>
+        <div id="question-4">
         <p>The condition in an if/else statement is enclosed within _____.</p>
         <ol>
-            <li>Parentheses</li>
-            <li>Curley brackets</li> 
-            <li>Square brackets </li>
-            <li>Quotes</li> 
+            <li class="mc">Parentheses</li>
+            <li class="mc">Curley brackets</li> 
+            <li class="mc">Square brackets </li>
+            <li class="mc">Quotes</li> 
             <!-- Correct ansewr: Parentheses -->
         </ol>  
+        </div>
         
         <!-- Quiz Question 5 -->
-        <div id="question-5"></div>
+        <div id="question-5">
         <p>Arrays in JavaScript can be used to store ____.</p>
         <ol>
-            <li>Functions</li>
-            <li>For loops</li> 
-            <li>Square brackets </li>
-            <li>Booleans</li> 
+            <li class="mc">Functions</li>
+            <li class="mc">For loops</li> 
+            <li class="mc">Square brackets </li>
+            <li class="mc">Booleans</li> 
             <!-- Correct ansewr: Booleans -->
         </ol>  
+        </div>
 
         <!-- Quiz Question 6 -->
-        <div id="question-5"></div>
+        <div id="question-6">
         <p>Commonly used dada types DO NOT include:</p>
         <ol>
-            <li>Alerts</li>
-            <li>For loops</li> 
-            <li>Quotes</li>
-            <li>Booleans</li> 
+            <li class="mc">Alerts</li>
+            <li class="mc">For loops</li> 
+            <li class="mc">Quotes</li>
+            <li class="mc">Booleans</li> 
             <!-- Correct ansewr: Alerts -->
         </ol>  
+        </div>
 
         <!-- Quiz Question 7 -->
-        <div id="question-7"></div>
+        <div id="question-7">
         <p>Which IF statement below executes the code if "i" is NOT equal to 5?</p>
         <ol>
-            <li>if (i * 5)</li>
-            <li>if (i != 5)</li> 
-            <li>if (i =! 5)</li>
-            <li>if (i = 5)</li> 
+            <li class="mc">if (i * 5)</li>
+            <li class="mc">if (i != 5)</li> 
+            <li class="mc">if (i =! 5)</li>
+            <li class="mc">if (i = 5)</li> 
             <!-- Correct ansewr: if (i != 5) -->
         </ol>  
+        </div>
+        </div>
+
+    </div>
 
 
 
