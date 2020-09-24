@@ -12,17 +12,7 @@ This code quiz tests a coding bootcamp student's knowledge on JavaScript fundame
 
 ## Coding Process
 
-This was by far the most difficult project to get through with many hours put in researching and trying to find a solution code to make this code quiz run. Unfortunately, I was unsuccessful in achieving this goal. 
-
-
-Please view the source code below.
-
- ![Image]()
-
- <br>
-
- ![Image]()
-
+This was by far the most difficult and frustrating project to get through with many hours put in researching and trying to find a solution code to make this code quiz run. Unfortunately, I was unsuccessful in achieving this goal of adding a timer. In addition, my quiz shows up at the bottom of the Bootstrap card and I wasn't able to have a field for the student's initials for the high score at the end. 
 
 To view the live website, please navigate to the **Deployed Link** below or  [click here](https://christyglee.github.io/code_quiz/) to view the page.
 
